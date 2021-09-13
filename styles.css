@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
 :root{
     --primary-color: #059669;
+    --dark-grey: #1F2937;
 }
 body{
     font-family: 'Oxygen', sans-serif;
@@ -62,4 +63,23 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img{
+   max-width: 350px;
+   display: block;
+   margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-grey);
+
+}
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
