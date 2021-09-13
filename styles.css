@@ -2,6 +2,7 @@
 :root{
     --primary-color: #059669;
     --dark-grey: #1F2937;
+    --offwhite-grey: #F3F4F6;
 }
 body{
     font-family: 'Oxygen', sans-serif;
@@ -83,3 +84,15 @@ hr{
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+.section {
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--offwhite-grey);
+}
+
